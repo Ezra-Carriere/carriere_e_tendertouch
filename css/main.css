@@ -1,3 +1,9 @@
+body {
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #header-con {
     height: 100px;
 }
@@ -6,8 +12,44 @@
     height: 140px;
 }
 
+#header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    display: inline;
+    font-size: 12px;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
 #hero {
-    height: 600px;
+    height: 320px;
+    margin-top: 20px;
+}
+
+#hero-img {
+    margin-bottom: 5px;
+}
+
+#info {
+    margin-top: 5px;
 }
 
 #info-image-1 {
@@ -23,13 +65,50 @@
 }
 
 #testimonials {
-    height: 300px;
+    height: 200px;
+}
+
+#test-button {
+    height: 50px;
+    margin-bottom: 0;
 }
 
 #about {
     height: 600px;
 }
 
+#about-title {
+    margin-bottom: 10px;
+}
+
 #footer-con {
     height: 100px;
+}
+
+@media screen and (min-width:768px) {
+
+    #hero {
+        height: 500px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    #about {
+        height: 400px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+#hero {
+    height: 800px;
+}
+
+#about {
+    height: 300px;
+}
+
 }

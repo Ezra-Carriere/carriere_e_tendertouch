@@ -15,48 +15,64 @@
         <div id="header-logo" class="col-start-1 col-end-3 m-col-start-1 m-col-end-4">
             <img id="header-logo-img" src="images/tt_logo.svg">
         </div>
-        <div id="header-nav" class="grid-con col-start-4 col-end-4  m-col-start-7 m-col-end-13">
+        <div id="header-nav" class="grid-con col-start-3 col-end-4  m-col-start-7 m-col-end-13">
             <nav>
                 <ul>
-                    <li>
-                        <a>Products</a>
-                        <a>About Us</a>
-                        <a>Informational Video</a>
-                    </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Informational Video</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <section id="hero" class="grid-con">
-        <div class="box col-span-full">Hero Image</div>
+        <div class="col-span-full">
+            <img id="hero-img" src="images/hero-img.png">
+        </div>
     </section>
 
-    <!--Each Info image will show information when the user hovers over it-->
+
     <section id="info" class="grid-con">
         <div id="info-image-1" class="box col-span-full m-col-span-4">Info Image 1</div>
         <div id="info-image-2" class="box col-span-full m-col-span-4">Info Image 2</div>
         <div id="info-image-3" class="box col-span-full m-col-span-4">Info Image 3</div>
     </section>
 
-    <!--Testimonials will have a gallery you can scroll through to see different ones-->
     <section id="testimonials" class="grid-con">
-        <div class="box col-start-1 col-end-2 m-col-start-1 m-col-end-3">Testimonial Image</div>
-        <div class="box col-start-2 col-end-5 m-col-start-3 m-col-end-13">Testimonial</div>
+        <div class="col-span-full testimonial-container">Testimonial</div>
+        <button id="test-button" class="next-testimonial col-span-full">Next Testimonial</button>
     </section>
+    
+    
 
     <section id="about" class="grid-con">
-    <div class="box col-span-full">About</div>
+    <div class="col-span-full">
+        <h1 id="about-title">About TenderTouch</h1>
+        <p>At TenderTouch, we understand that dealing with hemorrhoids can be a sensitive and often distressing issue. Our mission is to provide effective, compassionate solutions that prioritize your comfort and well-being. With a team of dedicated professionals and a commitment to using the latest advancements in treatment, we strive to empower our clients with knowledge and support throughout their healing journey. Whether you are seeking preventative measures or relief from existing discomfort, TenderTouch is here to guide you towards a healthier, more comfortable life. We believe in a holistic approach that not only addresses the symptoms but also fosters long-term wellness, ensuring you can return to enjoying life without the burden of hemorrhoids. Your comfort is our priority, and at TenderTouch, we are here to help you every step of the way.</p>
+    </div>
     </section>
 
     <div id="video" class="grid-con">
-        <video src="videos/video_placeholder.mp4" class="col-span-full">
+        <video src="videos/video_placeholder.mp4" class="col-span-full" controls>
+            Your browser does not support the video tag.
         </video>
     </div>
+    
 
     <footer id="footer-con" class="grid-con">
-        <div id="footer-logo" class="box col-start-1 col-end-3 m-col-start-1 m-col-end-4">Logo</div>
-        <div id="footer-nav" class="box grid-con col-start-4 col-end-4  m-col-start-7 m-col-end-13">Nav</div>
+            <div id="footer-logo" class="col-start-1 col-end-3 m-col-start-1 m-col-end-4">
+                <img id="footer-logo-img" src="images/tt_logo.svg">
+            </div>
+            <div id="footer-nav" class="grid-con col-start-2 col-end-4  m-col-start-7 m-col-end-13">
+                <nav>
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Informational Video</a></li>
+                    </ul>
+                </nav>
+            </div>
     </footer>
 
     <script src="js/main.js"></script>
