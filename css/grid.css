@@ -30,7 +30,7 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: lightskyblue;
+   background-color: rgb(135, 206, 250);
    color: black;
    border-radius: 5px;
    padding: 20px;
